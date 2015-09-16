@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/StdinStdout/StdinStdout.iml" filepath="$PROJECT_DIR$/StdinStdout/StdinStdout.iml" />
+      <module fileurl="file://$PROJECT_DIR$/StdinStdout2/StdinStdout2.iml" filepath="$PROJECT_DIR$/StdinStdout2/StdinStdout2.iml" />
       <module fileurl="file://$PROJECT_DIR$/WelcomeToJava/WelcomeToJava.iml" filepath="$PROJECT_DIR$/WelcomeToJava/WelcomeToJava.iml" />
       <module fileurl="file://$PROJECT_DIR$/hackerrank_java.iml" filepath="$PROJECT_DIR$/hackerrank_java.iml" />
     </modules>
