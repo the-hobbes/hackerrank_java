@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/JavaLoops/JavaLoops.iml" filepath="$PROJECT_DIR$/JavaLoops/JavaLoops.iml" />
       <module fileurl="file://$PROJECT_DIR$/OutputFormatting/OutputFormatting.iml" filepath="$PROJECT_DIR$/OutputFormatting/OutputFormatting.iml" />
       <module fileurl="file://$PROJECT_DIR$/StdinStdout/StdinStdout.iml" filepath="$PROJECT_DIR$/StdinStdout/StdinStdout.iml" />
       <module fileurl="file://$PROJECT_DIR$/StdinStdout2/StdinStdout2.iml" filepath="$PROJECT_DIR$/StdinStdout2/StdinStdout2.iml" />
