@@ -9,12 +9,12 @@ public class StringCompare {
 
         String inputString = sc.nextLine().trim();
         int k = sc.nextInt();
-        String largest = inputString.substring(0, 3);
-        String smallest = inputString.substring(0, 3);
+        String largest = inputString.substring(0, k);
+        String smallest = inputString.substring(0, k);
 
-        // iterate over the string from 0 to length-3 and compare lexigraphical value of the substrings
-        for (int i = 0; i < inputString.length() - 2; i++) {
-            String s = inputString.substring(i, i + 3);
+        // iterate over the string from 0 to length-k-1 and compare lexigraphical value of the substrings
+        for (int i = 0; i < inputString.length() - (k - 1); i++) {
+            String s = inputString.substring(i, i + k);
             if (s.compareTo(largest) > 0) {
                 largest = s;
             }
@@ -22,7 +22,7 @@ public class StringCompare {
                 smallest = s;
             }
         }
-        
+
         System.out.printf("%s\n%s \n", smallest, largest);
     }
 }
