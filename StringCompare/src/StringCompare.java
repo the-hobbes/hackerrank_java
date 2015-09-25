@@ -13,9 +13,8 @@ public class StringCompare {
         String smallest = inputString.substring(0, 3);
 
         // iterate over the string from 0 to length-3 and compare lexigraphical value of the substrings
-        for (int i = 0; i < inputString.length() - 3; i++) {
+        for (int i = 0; i < inputString.length() - 2; i++) {
             String s = inputString.substring(i, i + 3);
-            System.out.println(s);
             if (s.compareTo(largest) > 0) {
                 largest = s;
             }
@@ -23,6 +22,7 @@ public class StringCompare {
                 smallest = s;
             }
         }
+        
         System.out.printf("%s\n%s \n", smallest, largest);
     }
 }
