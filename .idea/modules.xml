@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Anagrams/Anagrams.iml" filepath="$PROJECT_DIR$/Anagrams/Anagrams.iml" />
       <module fileurl="file://$PROJECT_DIR$/DataTypes/DataTypes.iml" filepath="$PROJECT_DIR$/DataTypes/DataTypes.iml" />
       <module fileurl="file://$PROJECT_DIR$/EndOfFile/EndOfFile.iml" filepath="$PROJECT_DIR$/EndOfFile/EndOfFile.iml" />
       <module fileurl="file://$PROJECT_DIR$/JavaLoops/JavaLoops.iml" filepath="$PROJECT_DIR$/JavaLoops/JavaLoops.iml" />
