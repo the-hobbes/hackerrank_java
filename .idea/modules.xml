@@ -7,6 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/Biginteger/Biginteger.iml" filepath="$PROJECT_DIR$/Biginteger/Biginteger.iml" />
       <module fileurl="file://$PROJECT_DIR$/DataTypes/DataTypes.iml" filepath="$PROJECT_DIR$/DataTypes/DataTypes.iml" />
       <module fileurl="file://$PROJECT_DIR$/EndOfFile/EndOfFile.iml" filepath="$PROJECT_DIR$/EndOfFile/EndOfFile.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java1dArray/Java1dArray.iml" filepath="$PROJECT_DIR$/Java1dArray/Java1dArray.iml" />
       <module fileurl="file://$PROJECT_DIR$/JavaLoops/JavaLoops.iml" filepath="$PROJECT_DIR$/JavaLoops/JavaLoops.iml" />
       <module fileurl="file://$PROJECT_DIR$/OutputFormatting/OutputFormatting.iml" filepath="$PROJECT_DIR$/OutputFormatting/OutputFormatting.iml" />
       <module fileurl="file://$PROJECT_DIR$/StdinStdout/StdinStdout.iml" filepath="$PROJECT_DIR$/StdinStdout/StdinStdout.iml" />
