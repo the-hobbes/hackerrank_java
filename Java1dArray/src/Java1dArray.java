@@ -9,22 +9,22 @@ public class Java1dArray {
         int n = Integer.parseInt(sc.nextLine());
         int[] intList = new int[n];
         String[] strList = sc.nextLine().trim().split(" ");
-        int sum = 0;
+        int count = 0, runningSum= 0;
 
         for (int i = 0; i < strList.length; i++) {
             intList[i] = Integer.parseInt(strList[i]);
         }
 
         for (int i = 0; i < intList.length; i++) {
-            int runningSum = 0;
-            for (int j = i + 1; j < intList.length; j++) {
+            for (int j = i; j < intList.length; j++) {
                 // System.out.println(i + ":" + j);
-                runningSum += intList[i];
+                runningSum += intList[j];
+                if (runningSum < 0 ) {
+                    count += 1;
+                }
             }
-            if (runningSum <0 ) {
-                sum += 1;
-            }
+            runningSum = 0;
         }
-        System.out.println(sum);
+        System.out.println(count);
     }
 }
